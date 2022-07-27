@@ -1,0 +1,110 @@
+/* This is a comment block
+
+    font-family = "Anton", cursive;
+    font-family: "Open Sans", sans-serif;
+
+    Text color : #333;
+    Dark blue : #345995;
+    Light Blue: #4392F1;
+    Red : #D7263D;
+    Yellow : #EAC435;
+    Orange : #F46036;
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: #333;
+}
+.wrap {
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+}
+h1, h2 {
+    margin:0;
+    padding: 0;
+    font-family: "Anton", cursive;
+    font-weight: normal;
+}
+h1 {
+    font-size: 110px;
+}
+h2 {
+    font-size: 30px;
+}
+.spacer.v20 {
+    height: 20px;
+}
+.spacer.v40 {
+    height: 40px;
+}
+.spacer.v80 {
+    height: 80px;
+}
+.clear {
+    clear:both;
+}
+#promo,
+#subscribe,
+#footer {
+    text-align: center;
+    color: #fff;
+    min-width: 1000px;
+}
+#promo {
+    background-color: #F46036
+}
+#promo > div {
+    padding: 15px;
+}
+#topMenu {
+    height: 60px;
+}
+#topLinks {
+    float: right;
+    padding-top: 20px;
+}
+#topLinks ul,
+#footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#topLinks li {
+    float: left;
+}
+#topLinks li a {
+    color: #333;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+    #topLinks li a:hover {
+        color: #4392F1;
+        text-decoration: underline;
+        -webkit-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
+    
+}
+#topMenu .logo {
+    float: left;
+    padding-top: 13px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+}
+    #topMenu .logo:hover {
+        color: #4392F1;
+    }
+.logo {
+    font-family: "Anton", cursive;
+}
